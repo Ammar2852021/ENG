@@ -4,6 +4,44 @@
   display: none;
 }
 
+.input-group {
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  min-height: 50px;
+  max-width: 150px;
+  padding: 0 1rem;
+  color: #fff;
+  font-size: 15px;
+  border: 1px solid #5e4dcd;
+  border-radius: 6px 0 0 6px;
+  background-color: transparent;
+}
+
+.button--submit {
+  min-height: 50px;
+  padding: .5em 1em;
+  border: none;
+  border-radius: 0 6px 6px 0;
+  background-color: #5e4dcd;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color .3s ease-in-out;
+}
+
+.button--submit:hover {
+  background-color: #5e5dcd;
+}
+
+.input:focus, .input:focus-visible {
+  border-color: #3898EC;
+  outline: none;
+}
+
+
 
 
 #loding {
@@ -293,7 +331,7 @@ div #card:has(img) img {
 }
 
 
-
+/* 
 
 :root {
   --border-color: rgb(1, 1, 1);
@@ -394,7 +432,7 @@ blockquote {
     margin-block: 1rem;
   }
 }
-
+ */
 
 
 
@@ -796,3 +834,88 @@ button:active {
   box-shadow: 0.2em 0.2em 0.3em rgba(0, 0, 0, 0.3);
   transform: translate(0.1em, 0.1em);
 }
+
+
+
+
+
+
+/* skalls tow */
+
+
+.container h2 {
+  position: relative;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #959595;
+}
+.container h2:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -10px;
+  border-bottom: 3px solid #e2cef9;
+  width: 30px;
+}
+
+ul {
+  list-style: none;
+  margin: 4em 0 0;
+  padding: 0;
+}
+ul::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+ul li {
+  margin-bottom: 2em;
+}
+@media only screen and (min-width: 700px) {
+  ul li {
+    float: left;
+    width: 47.5%;
+    margin-right: 5%;
+  }
+  ul li:nth-child(2n) {
+    margin-right: 0;
+  }
+}
+ul li h3 {
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.25em;
+  line-height: 2.5em;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+ul li h3:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background-color: #e2cef9;
+  width: 2.5em;
+  height: 2.5em;
+  border-radius: 50%;
+}
+ul li h3 span {
+  padding-left: 15px;
+}
+ul li p {
+  padding-left: 15px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.1em;
+  line-height: 1.6875em;
+  font-weight: 400;
+  color: #959595;
+}
+
+
+
+
+/* ........................... team */
