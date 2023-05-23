@@ -330,7 +330,7 @@ div #card:has(img) img {
   margin: -3px 0px 0px 5px;
 }
 
-
+.TOPS{margin-top: 15vh;}
 /* 
 
 :root {
@@ -898,7 +898,7 @@ ul li h3:before {
   content: "";
   position: absolute;
   z-index: -1;
-  background-color: #e2cef9;
+  background-color: darkslateblue;
   width: 2.5em;
   height: 2.5em;
   border-radius: 50%;
